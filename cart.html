@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+   <!-- bootsrap icons cdn -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- header start -->
+    <div class="container-fluid">
+        <div class="row bg-dark text-white">
+            <div class="col-12 col-md-3 text-center">
+                <a class="navbar-brand fs-3 fw-bold" href="/index.html">OUR COLLECTION</a>
+
+            </div>
+            <div class="col-12 col-md-6 py-1">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form>
+            </div>
+            <div class=" col-12 col-md-3 fs-3 d-flex justify-content-evenly">
+                <a href="/register.html" class="bi bi-person-add text-white"></a>
+                <a href="/signin.html" class="bi bi-box-arrow-in-left text-white"></a>
+                <a href="/cart.html" class="bi bi-cart2 text-white"></a>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+              
+              
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- header end -->
+
+
+    <!-- main content start -->
+     <h3 class="text-center text-decoration-underline text-primary"></h3>
+      <table class="table w-75 m-auto text-center align-middle table-striped table-hover">
+        <thead class="table-dark">
+          <tr>
+            <td>S.NO</td>
+            <td colspan="2">Products</td>
+            <td>Unit Price </td>
+            <td>Quantity</td>
+            <td>Total Amount</td>
+            <td>Action</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <img src="carousel3.jpg" alt="" style="height: 100px;">
+            </td>
+            <td>Samsung</td>
+            <td>Rs.25000</td>
+            <td>3</td>
+            <td>Rs.75000</td>
+            <td>
+              <div class="btn-group">
+                <button class="btn btn-warning">Update</button>
+                <button class="btn btn-danger">Remove</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <img src="carousel3.jpg" alt="" style="height: 100px;">
+            </td>
+            <td>Samsung</td>
+            <td>Rs.25000</td>
+            <td>3</td>
+            <td>Rs.75000</td>
+            <td>
+              <div class="btn-group">
+                <button class="btn btn-warning">Update</button>
+                <button class="btn btn-danger">Remove</button>
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <img src="carousel3.jpg" alt="" style="height: 100px;">
+            </td>
+            <td>Samsung</td>
+            <td>Rs.25000</td>
+            <td>3</td>
+            <td>Rs.75000</td>
+            <td>
+              <div class="btn-group">
+                <button class="btn btn-warning">Update</button>
+                <button class="btn btn-danger">Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    <!-- main content end -->
+
+    <!-- footer start -->
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="/products.html" class="nav-link px-2 text-body-secondary">Products</a></li>
+            <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="/blogs.html" class="nav-link px-2 text-body-secondary">Blogs</a></li>
+            <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+        </footer>
+      </div>
+    <!-- footer end -->
+
+    <!--Bootstrap js CDN -->
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
